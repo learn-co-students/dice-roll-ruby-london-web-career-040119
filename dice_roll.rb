@@ -2,6 +2,10 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+Array = [1, 2, 3, 4, 5, 6];
+
 def roll
-  # code goes here
+  index = rand(0..5)
+  Array[index]
 end
+
