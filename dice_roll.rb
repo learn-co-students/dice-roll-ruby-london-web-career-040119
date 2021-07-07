@@ -2,6 +2,17 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+dice = [1,2,3,4,5,6]
+
 def roll
-  # code goes here
+  return rand(1..6)
 end
+
+
+#alternative code?
+
+#def roll
+#  return dice.sample
+#end
+
+# code goes hereend
